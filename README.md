@@ -30,7 +30,7 @@ In this project, we learnt the mathematics behind the various algorithms in Comp
 #### 1. DATASET
 
 The CNN Model implemented by us has been trained on the GTSRB (German traffic sign detection benchmark) Dataset for traffic sign recognition. It consists of 43 different traffic sign classes and about 50,000 images. Firstly, we reshaped the images to 30 X 30 pixels size. 
-Then using the inbuilt function we split the dataset into training and testing such that 20% will be used as test dataset and the rest for training the model. Following this we developed our sequential model. 
+Then using the inbuilt function we split the dataset into training and testing such that 20% will be used as test dataset and the rest for training the model. Following this we developed our sequential model. dataset taken from kaggle's GTSRB challenge - https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign 
 
 
 #### 2. CNN
