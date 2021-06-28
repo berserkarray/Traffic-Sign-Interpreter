@@ -65,7 +65,7 @@ We had built a graphical user interface for our traffic signs classifier with Tk
 
 ### Team
 
-1.Saurabh Patil	 
-2.Onkar Dasari		 
-3.Ananya Mehrotra
+1. Saurabh Patil	 
+2. Onkar Dasari		 
+3. Ananya Mehrotra
 
