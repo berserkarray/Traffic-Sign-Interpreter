@@ -63,9 +63,3 @@ Basic libraries like NumPy and Matplotlib.pyplot were used. Alongside some impor
 tkinter is python's de-facto standard GUI package. link to tkinter documentation- https://docs.python.org/3/library/tkinter.html  . 
 We had built a graphical user interface for our traffic signs classifier with Tkinter. At first we loaded the trained model ‘my_model.h5’ using Keras. (H5 is a file format to store structured data, it's not a model by itself. Keras saves models in this format as it can easily store the weights and model configuration in a single file.) And then we build the GUI for uploading the image and a button is used to classify which calls the classify() function. The classify() function is converting the image into the dimension of shape (1, 30, 30, 3). This is because to predict the traffic sign we have to provide the same dimension we have used when building the model. Then we predict the class, the np.argmax(model.predict(x) axis=-1) returns us a number between (0-42) which represents the class it belongs to. We use the dictionary to get the information about the class.
 
-### Team
-
-1. Saurabh Patil	 
-2. Onkar Dasari		 
-3. Ananya Mehrotra
-
